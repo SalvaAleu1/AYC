@@ -1,13 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "redirects": [
-    {
-      "source": "/documents/constitution-of-apuk-youth-for-change.docx",
-      "destination": "/constitution/",
-      "permanent": false
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
