@@ -2,7 +2,7 @@
 
 Official public website source for Apuk Youth for Change.
 
-## Deployment
+## Vercel deployment
 
 This is a dependency-free static website and can be deployed directly to Vercel from the repository root.
 
@@ -11,9 +11,9 @@ This is a dependency-free static website and can be deployed directly to Vercel 
 - Output directory: **leave empty**
 - Install command: **leave empty**
 
-Vercel serves the repository root directly. `vercel.json` supplies security and asset-cache headers.
+`vercel.json` provides clean routing, security headers and asset caching.
 
-## Main sections
+## Public sections
 
 - Home
 - Our Movement
@@ -26,4 +26,4 @@ Vercel serves the repository root directly. `vercel.json` supplies security and 
 - Privacy Policy
 - Terms of Use
 
-The official AYC emblem and Constitution are included under `assets/` and `documents/` respectively.
+The official AYC emblem is stored in `assets/ayc-emblem.webp`. Public constitutional content is presented through the Constitution and governance pages.
